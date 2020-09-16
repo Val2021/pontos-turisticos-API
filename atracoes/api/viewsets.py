@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 from atracoes.models import Atracoes
-from .serializers import AtracoesSerializer
+from .serializers import AtracaoSerializer
 
-class AtracoesViewSet(ModelViewSet):
+class AtracaoViewSet(ModelViewSet):
     queryset = Atracoes.objects.all()
-    serializer_class = AtracoesSerializer
+    serializer_class = AtracaoSerializer

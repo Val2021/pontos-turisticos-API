@@ -5,4 +5,4 @@ from atracoes.models import Atracoes
 class AtracaoSerializer(ModelSerializer):
     class Meta:
         model = Atracoes
-        fields = ('id','nome', 'descricao','horario_func','idade_minin')
+        fields = ('id','nome', 'descricao','horario_func','idade_minin','foto')
